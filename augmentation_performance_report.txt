@@ -1,0 +1,18 @@
+# Handwritten Digit Recognition - Augmentation Performance Report
+
+Test Accuracy with Augmentation: 99.68%
+Test Loss with Augmentation: 0.0111
+
+## Data Augmentation Techniques Applied:
+- Random Rotation (±10%)
+- Random Zoom (±10%)
+- Random Translation (±10%)
+- Random Brightness Adjustments (±10%)
+
+## Model Architecture Enhancements:
+- Added BatchNormalization layers
+- Improved dropout strategy
+- Added learning rate scheduling
+- Used early stopping to prevent overfitting
+
+Check 'augmentation_examples.png' to see examples of the applied augmentations.
